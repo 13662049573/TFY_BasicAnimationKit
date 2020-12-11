@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests : NSObject
+@end
+@implementation PodsDummy_Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests
+@end

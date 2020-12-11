@@ -1,0 +1,31 @@
+//
+//  TFY_PrefixHeader.pch
+//  TFY_BasicAnimationKit
+//
+//  Created by 田风有 on 2020/12/10.
+//
+
+#ifndef TFY_PrefixHeader_pch
+#define TFY_PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <TFY_AutoLayout.h>
+#import <TFY_LayoutCategoryKit.h>
+#import <TFY_Navigation.h>
+#import <TFY_ProgressHMB.h>
+#import <TFY_ModelKit.h>
+
+
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+#import <IQKeyboardManager.h>
+#import <ReactiveObjC.h>
+#import <SDWebImage.h>
+
+#endif
+
+#import "TFY_BasicAnimationKit.h"
+
+
+#endif /* TFY_PrefixHeader_pch */

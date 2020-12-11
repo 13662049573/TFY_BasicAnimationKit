@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		366B1D2C25822E2200F06AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D2B25822E2200F06AB5 /* AppDelegate.m */; };
-		366B1D2F25822E2200F06AB5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D2E25822E2200F06AB5 /* SceneDelegate.m */; };
-		366B1D3225822E2200F06AB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D3125822E2200F06AB5 /* ViewController.m */; };
-		366B1D3525822E2200F06AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366B1D3325822E2200F06AB5 /* Main.storyboard */; };
 		366B1D3725822E2600F06AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366B1D3625822E2600F06AB5 /* Assets.xcassets */; };
 		366B1D3A25822E2600F06AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366B1D3825822E2600F06AB5 /* LaunchScreen.storyboard */; };
 		366B1D3D25822E2600F06AB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D3C25822E2600F06AB5 /* main.m */; };
 		366B1D4725822E2600F06AB5 /* TFY_BasicAnimationKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D4625822E2600F06AB5 /* TFY_BasicAnimationKitTests.m */; };
 		366B1D5225822E2600F06AB5 /* TFY_BasicAnimationKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D5125822E2600F06AB5 /* TFY_BasicAnimationKitUITests.m */; };
+		366B1D6D25822E9500F06AB5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D6825822E9400F06AB5 /* SceneDelegate.m */; };
+		366B1D6E25822E9500F06AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1D6925822E9400F06AB5 /* AppDelegate.m */; };
+		366B1DA42582F84100F06AB5 /* UIView+TFY_DancerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DA32582F84100F06AB5 /* UIView+TFY_DancerProperty.m */; };
+		366B1DAA2583099600F06AB5 /* UIView+TFY_Dancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DA92583099600F06AB5 /* UIView+TFY_Dancer.m */; };
+		366B1DB925830A2400F06AB5 /* CALayer+TFY_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DB825830A2400F06AB5 /* CALayer+TFY_Frame.m */; };
+		366B1DBF25830B8000F06AB5 /* CALayer+TFY_Dancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DBE25830B8000F06AB5 /* CALayer+TFY_Dancer.m */; };
+		366B1DC525830C7D00F06AB5 /* CALayer+TFY_DancerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DC425830C7D00F06AB5 /* CALayer+TFY_DancerProperty.m */; };
+		366B1DCB258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DCA258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.m */; };
+		366B1DD12583255200F06AB5 /* UICollectionView+TFY_Dancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DD02583255200F06AB5 /* UICollectionView+TFY_Dancer.m */; };
+		366B1DD725833BA100F06AB5 /* UITableView+TFY_DancerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DD625833BA100F06AB5 /* UITableView+TFY_DancerProperty.m */; };
+		366B1DDD25833CE600F06AB5 /* UITableView+TFY_Dancer.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DDC25833CE600F06AB5 /* UITableView+TFY_Dancer.m */; };
+		366B1DE8258341B700F06AB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DE3258341B700F06AB5 /* ViewController.m */; };
+		366B1DF1258341DA00F06AB5 /* TFY_MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DF0258341DA00F06AB5 /* TFY_MainModel.m */; };
+		366B1DFA2583428E00F06AB5 /* TFY_MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DF92583428E00F06AB5 /* TFY_MainCollectionViewCell.m */; };
+		366B1E002583477900F06AB5 /* TFY_DancerTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1DFF2583477900F06AB5 /* TFY_DancerTransitionViewController.m */; };
+		366B1E0625834E5300F06AB5 /* TFY_DancerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1E0525834E5300F06AB5 /* TFY_DancerCollectionViewController.m */; };
+		366B1E0C25834EEA00F06AB5 /* TFY_DancerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1E0B25834EEA00F06AB5 /* TFY_DancerTableViewController.m */; };
+		366B1E1225834F6C00F06AB5 /* TFY_DancerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1E1125834F6C00F06AB5 /* TFY_DancerViewController.m */; };
+		366B1E1825834FA400F06AB5 /* TFY_DancerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B1E1725834FA400F06AB5 /* TFY_DancerCollectionViewCell.m */; };
+		662A527A342D4C4475686B09 /* Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C29DFB448D032C825D824C /* Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework */; };
+		B74C7D2D71735D484F6CC2FC /* Pods_TFY_BasicAnimationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEE4248BF2D7D129BBE5218 /* Pods_TFY_BasicAnimationKit.framework */; };
+		F53BB20A446124D75D37C911 /* Pods_TFY_BasicAnimationKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C42EA15E6A19EFA04C612A9 /* Pods_TFY_BasicAnimationKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F20B60C245CAC13165C13E6 /* Pods-TFY_BasicAnimationKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKitTests.release.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKitTests/Pods-TFY_BasicAnimationKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		366B1D2725822E2200F06AB5 /* TFY_BasicAnimationKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFY_BasicAnimationKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		366B1D2A25822E2200F06AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		366B1D2B25822E2200F06AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		366B1D2D25822E2200F06AB5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		366B1D2E25822E2200F06AB5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		366B1D3025822E2200F06AB5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		366B1D3125822E2200F06AB5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		366B1D3425822E2200F06AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		366B1D3625822E2600F06AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366B1D3925822E2600F06AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366B1D3B25822E2600F06AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +66,55 @@
 		366B1D4D25822E2600F06AB5 /* TFY_BasicAnimationKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFY_BasicAnimationKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366B1D5125822E2600F06AB5 /* TFY_BasicAnimationKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_BasicAnimationKitUITests.m; sourceTree = "<group>"; };
 		366B1D5325822E2600F06AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366B1D6725822E9400F06AB5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		366B1D6825822E9400F06AB5 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		366B1D6925822E9400F06AB5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		366B1D6A25822E9400F06AB5 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		366B1D7225822EB300F06AB5 /* TFY_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_PrefixHeader.pch; sourceTree = "<group>"; };
+		366B1D9A2582F67400F06AB5 /* TFY_BasicAnimationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_BasicAnimationKit.h; sourceTree = "<group>"; };
+		366B1D9E2582F76300F06AB5 /* TFY_DancerBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerBlock.h; sourceTree = "<group>"; };
+		366B1DA22582F84100F06AB5 /* UIView+TFY_DancerProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TFY_DancerProperty.h"; sourceTree = "<group>"; };
+		366B1DA32582F84100F06AB5 /* UIView+TFY_DancerProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFY_DancerProperty.m"; sourceTree = "<group>"; };
+		366B1DA82583099600F06AB5 /* UIView+TFY_Dancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TFY_Dancer.h"; sourceTree = "<group>"; };
+		366B1DA92583099600F06AB5 /* UIView+TFY_Dancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFY_Dancer.m"; sourceTree = "<group>"; };
+		366B1DB725830A2400F06AB5 /* CALayer+TFY_Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+TFY_Frame.h"; sourceTree = "<group>"; };
+		366B1DB825830A2400F06AB5 /* CALayer+TFY_Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TFY_Frame.m"; sourceTree = "<group>"; };
+		366B1DBD25830B8000F06AB5 /* CALayer+TFY_Dancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+TFY_Dancer.h"; sourceTree = "<group>"; };
+		366B1DBE25830B8000F06AB5 /* CALayer+TFY_Dancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TFY_Dancer.m"; sourceTree = "<group>"; };
+		366B1DC325830C7D00F06AB5 /* CALayer+TFY_DancerProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+TFY_DancerProperty.h"; sourceTree = "<group>"; };
+		366B1DC425830C7D00F06AB5 /* CALayer+TFY_DancerProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+TFY_DancerProperty.m"; sourceTree = "<group>"; };
+		366B1DC9258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TFY_DancerProperty.h"; sourceTree = "<group>"; };
+		366B1DCA258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TFY_DancerProperty.m"; sourceTree = "<group>"; };
+		366B1DCF2583255200F06AB5 /* UICollectionView+TFY_Dancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TFY_Dancer.h"; sourceTree = "<group>"; };
+		366B1DD02583255200F06AB5 /* UICollectionView+TFY_Dancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TFY_Dancer.m"; sourceTree = "<group>"; };
+		366B1DD525833BA100F06AB5 /* UITableView+TFY_DancerProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TFY_DancerProperty.h"; sourceTree = "<group>"; };
+		366B1DD625833BA100F06AB5 /* UITableView+TFY_DancerProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TFY_DancerProperty.m"; sourceTree = "<group>"; };
+		366B1DDB25833CE600F06AB5 /* UITableView+TFY_Dancer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+TFY_Dancer.h"; sourceTree = "<group>"; };
+		366B1DDC25833CE600F06AB5 /* UITableView+TFY_Dancer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TFY_Dancer.m"; sourceTree = "<group>"; };
+		366B1DE3258341B700F06AB5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		366B1DE4258341B700F06AB5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		366B1DEF258341DA00F06AB5 /* TFY_MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_MainModel.h; sourceTree = "<group>"; };
+		366B1DF0258341DA00F06AB5 /* TFY_MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_MainModel.m; sourceTree = "<group>"; };
+		366B1DF82583428E00F06AB5 /* TFY_MainCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_MainCollectionViewCell.h; sourceTree = "<group>"; };
+		366B1DF92583428E00F06AB5 /* TFY_MainCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_MainCollectionViewCell.m; sourceTree = "<group>"; };
+		366B1DFE2583477900F06AB5 /* TFY_DancerTransitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerTransitionViewController.h; sourceTree = "<group>"; };
+		366B1DFF2583477900F06AB5 /* TFY_DancerTransitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_DancerTransitionViewController.m; sourceTree = "<group>"; };
+		366B1E0425834E5300F06AB5 /* TFY_DancerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerCollectionViewController.h; sourceTree = "<group>"; };
+		366B1E0525834E5300F06AB5 /* TFY_DancerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_DancerCollectionViewController.m; sourceTree = "<group>"; };
+		366B1E0A25834EEA00F06AB5 /* TFY_DancerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerTableViewController.h; sourceTree = "<group>"; };
+		366B1E0B25834EEA00F06AB5 /* TFY_DancerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_DancerTableViewController.m; sourceTree = "<group>"; };
+		366B1E1025834F6C00F06AB5 /* TFY_DancerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerViewController.h; sourceTree = "<group>"; };
+		366B1E1125834F6C00F06AB5 /* TFY_DancerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_DancerViewController.m; sourceTree = "<group>"; };
+		366B1E1625834FA400F06AB5 /* TFY_DancerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFY_DancerCollectionViewCell.h; sourceTree = "<group>"; };
+		366B1E1725834FA400F06AB5 /* TFY_DancerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFY_DancerCollectionViewCell.m; sourceTree = "<group>"; };
+		3C42EA15E6A19EFA04C612A9 /* Pods_TFY_BasicAnimationKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_BasicAnimationKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57162AB17F42A357C6A88080 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		65C29DFB448D032C825D824C /* Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931F8E5C9619E6A3B7A5F0FE /* Pods-TFY_BasicAnimationKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKit.release.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKit/Pods-TFY_BasicAnimationKit.release.xcconfig"; sourceTree = "<group>"; };
+		D9F030D0227A140EE59025F0 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.release.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAE4154BD504B0F1D1300A26 /* Pods-TFY_BasicAnimationKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKit.debug.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKit/Pods-TFY_BasicAnimationKit.debug.xcconfig"; sourceTree = "<group>"; };
+		DDEE4248BF2D7D129BBE5218 /* Pods_TFY_BasicAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFY_BasicAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5E4EAAEC4DE1A3CDA0CC44 /* Pods-TFY_BasicAnimationKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFY_BasicAnimationKitTests.debug.xcconfig"; path = "Target Support Files/Pods-TFY_BasicAnimationKitTests/Pods-TFY_BasicAnimationKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74C7D2D71735D484F6CC2FC /* Pods_TFY_BasicAnimationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F53BB20A446124D75D37C911 /* Pods_TFY_BasicAnimationKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662A527A342D4C4475686B09 /* Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +152,8 @@
 				366B1D4525822E2600F06AB5 /* TFY_BasicAnimationKitTests */,
 				366B1D5025822E2600F06AB5 /* TFY_BasicAnimationKitUITests */,
 				366B1D2825822E2200F06AB5 /* Products */,
+				CC365A7F16CC2E3D30973DA6 /* Pods */,
+				CB4509F4FC7F0C562894796B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,13 +170,10 @@
 		366B1D2925822E2200F06AB5 /* TFY_BasicAnimationKit */ = {
 			isa = PBXGroup;
 			children = (
-				366B1D2A25822E2200F06AB5 /* AppDelegate.h */,
-				366B1D2B25822E2200F06AB5 /* AppDelegate.m */,
-				366B1D2D25822E2200F06AB5 /* SceneDelegate.h */,
-				366B1D2E25822E2200F06AB5 /* SceneDelegate.m */,
-				366B1D3025822E2200F06AB5 /* ViewController.h */,
-				366B1D3125822E2200F06AB5 /* ViewController.m */,
-				366B1D3325822E2200F06AB5 /* Main.storyboard */,
+				366B1D6225822E9400F06AB5 /* PCH */,
+				366B1D6625822E9400F06AB5 /* TFY_AppDelegate */,
+				366B1D6B25822E9400F06AB5 /* TFY_BasicAnimationKit */,
+				366B1D6325822E9400F06AB5 /* TFY_Class */,
 				366B1D3625822E2600F06AB5 /* Assets.xcassets */,
 				366B1D3825822E2600F06AB5 /* LaunchScreen.storyboard */,
 				366B1D3B25822E2600F06AB5 /* Info.plist */,
@@ -137,6 +200,154 @@
 			path = TFY_BasicAnimationKitUITests;
 			sourceTree = "<group>";
 		};
+		366B1D6225822E9400F06AB5 /* PCH */ = {
+			isa = PBXGroup;
+			children = (
+				366B1D7225822EB300F06AB5 /* TFY_PrefixHeader.pch */,
+			);
+			path = PCH;
+			sourceTree = "<group>";
+		};
+		366B1D6325822E9400F06AB5 /* TFY_Class */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DE6258341B700F06AB5 /* cell */,
+				366B1DE1258341B700F06AB5 /* Controller */,
+				366B1DE2258341B700F06AB5 /* MainController */,
+				366B1DE7258341B700F06AB5 /* Model */,
+				366B1DE5258341B700F06AB5 /* View */,
+			);
+			path = TFY_Class;
+			sourceTree = "<group>";
+		};
+		366B1D6625822E9400F06AB5 /* TFY_AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				366B1D6725822E9400F06AB5 /* AppDelegate.h */,
+				366B1D6925822E9400F06AB5 /* AppDelegate.m */,
+				366B1D6A25822E9400F06AB5 /* SceneDelegate.h */,
+				366B1D6825822E9400F06AB5 /* SceneDelegate.m */,
+			);
+			path = TFY_AppDelegate;
+			sourceTree = "<group>";
+		};
+		366B1D6B25822E9400F06AB5 /* TFY_BasicAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				366B1D9A2582F67400F06AB5 /* TFY_BasicAnimationKit.h */,
+				366B1D992582F65A00F06AB5 /* TFY_MacioAnimation */,
+				366B1D982582F64A00F06AB5 /* TFY_CategoryAnimation */,
+			);
+			path = TFY_BasicAnimationKit;
+			sourceTree = "<group>";
+		};
+		366B1D982582F64A00F06AB5 /* TFY_CategoryAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DA22582F84100F06AB5 /* UIView+TFY_DancerProperty.h */,
+				366B1DA32582F84100F06AB5 /* UIView+TFY_DancerProperty.m */,
+				366B1DA82583099600F06AB5 /* UIView+TFY_Dancer.h */,
+				366B1DA92583099600F06AB5 /* UIView+TFY_Dancer.m */,
+				366B1DB725830A2400F06AB5 /* CALayer+TFY_Frame.h */,
+				366B1DB825830A2400F06AB5 /* CALayer+TFY_Frame.m */,
+				366B1DBD25830B8000F06AB5 /* CALayer+TFY_Dancer.h */,
+				366B1DBE25830B8000F06AB5 /* CALayer+TFY_Dancer.m */,
+				366B1DC325830C7D00F06AB5 /* CALayer+TFY_DancerProperty.h */,
+				366B1DC425830C7D00F06AB5 /* CALayer+TFY_DancerProperty.m */,
+				366B1DC9258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.h */,
+				366B1DCA258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.m */,
+				366B1DCF2583255200F06AB5 /* UICollectionView+TFY_Dancer.h */,
+				366B1DD02583255200F06AB5 /* UICollectionView+TFY_Dancer.m */,
+				366B1DD525833BA100F06AB5 /* UITableView+TFY_DancerProperty.h */,
+				366B1DD625833BA100F06AB5 /* UITableView+TFY_DancerProperty.m */,
+				366B1DDB25833CE600F06AB5 /* UITableView+TFY_Dancer.h */,
+				366B1DDC25833CE600F06AB5 /* UITableView+TFY_Dancer.m */,
+			);
+			path = TFY_CategoryAnimation;
+			sourceTree = "<group>";
+		};
+		366B1D992582F65A00F06AB5 /* TFY_MacioAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				366B1D9E2582F76300F06AB5 /* TFY_DancerBlock.h */,
+			);
+			path = TFY_MacioAnimation;
+			sourceTree = "<group>";
+		};
+		366B1DE1258341B700F06AB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DFE2583477900F06AB5 /* TFY_DancerTransitionViewController.h */,
+				366B1DFF2583477900F06AB5 /* TFY_DancerTransitionViewController.m */,
+				366B1E0425834E5300F06AB5 /* TFY_DancerCollectionViewController.h */,
+				366B1E0525834E5300F06AB5 /* TFY_DancerCollectionViewController.m */,
+				366B1E0A25834EEA00F06AB5 /* TFY_DancerTableViewController.h */,
+				366B1E0B25834EEA00F06AB5 /* TFY_DancerTableViewController.m */,
+				366B1E1025834F6C00F06AB5 /* TFY_DancerViewController.h */,
+				366B1E1125834F6C00F06AB5 /* TFY_DancerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		366B1DE2258341B700F06AB5 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DE4258341B700F06AB5 /* ViewController.h */,
+				366B1DE3258341B700F06AB5 /* ViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		366B1DE5258341B700F06AB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		366B1DE6258341B700F06AB5 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DF82583428E00F06AB5 /* TFY_MainCollectionViewCell.h */,
+				366B1DF92583428E00F06AB5 /* TFY_MainCollectionViewCell.m */,
+				366B1E1625834FA400F06AB5 /* TFY_DancerCollectionViewCell.h */,
+				366B1E1725834FA400F06AB5 /* TFY_DancerCollectionViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		366B1DE7258341B700F06AB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				366B1DEF258341DA00F06AB5 /* TFY_MainModel.h */,
+				366B1DF0258341DA00F06AB5 /* TFY_MainModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4509F4FC7F0C562894796B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE4248BF2D7D129BBE5218 /* Pods_TFY_BasicAnimationKit.framework */,
+				65C29DFB448D032C825D824C /* Pods_TFY_BasicAnimationKit_TFY_BasicAnimationKitUITests.framework */,
+				3C42EA15E6A19EFA04C612A9 /* Pods_TFY_BasicAnimationKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC365A7F16CC2E3D30973DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE4154BD504B0F1D1300A26 /* Pods-TFY_BasicAnimationKit.debug.xcconfig */,
+				931F8E5C9619E6A3B7A5F0FE /* Pods-TFY_BasicAnimationKit.release.xcconfig */,
+				57162AB17F42A357C6A88080 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.debug.xcconfig */,
+				D9F030D0227A140EE59025F0 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.release.xcconfig */,
+				EB5E4EAAEC4DE1A3CDA0CC44 /* Pods-TFY_BasicAnimationKitTests.debug.xcconfig */,
+				1F20B60C245CAC13165C13E6 /* Pods-TFY_BasicAnimationKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 366B1D5625822E2600F06AB5 /* Build configuration list for PBXNativeTarget "TFY_BasicAnimationKit" */;
 			buildPhases = (
+				BD8454FA77480E5D8641CBA3 /* [CP] Check Pods Manifest.lock */,
 				366B1D2325822E2200F06AB5 /* Sources */,
 				366B1D2425822E2200F06AB5 /* Frameworks */,
 				366B1D2525822E2200F06AB5 /* Resources */,
+				87157C6EC386E36C5BAF2DCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 366B1D5925822E2600F06AB5 /* Build configuration list for PBXNativeTarget "TFY_BasicAnimationKitTests" */;
 			buildPhases = (
+				5A60BEF4CB09B9FAA81E9E3A /* [CP] Check Pods Manifest.lock */,
 				366B1D3E25822E2600F06AB5 /* Sources */,
 				366B1D3F25822E2600F06AB5 /* Frameworks */,
 				366B1D4025822E2600F06AB5 /* Resources */,
@@ -179,9 +393,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 366B1D5C25822E2600F06AB5 /* Build configuration list for PBXNativeTarget "TFY_BasicAnimationKitUITests" */;
 			buildPhases = (
+				9A9328A788C51C2885DDE58C /* [CP] Check Pods Manifest.lock */,
 				366B1D4925822E2600F06AB5 /* Sources */,
 				366B1D4A25822E2600F06AB5 /* Frameworks */,
 				366B1D4B25822E2600F06AB5 /* Resources */,
+				480FBF7B7C18C563AB2EAA57 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,7 +457,6 @@
 			files = (
 				366B1D3A25822E2600F06AB5 /* LaunchScreen.storyboard in Resources */,
 				366B1D3725822E2600F06AB5 /* Assets.xcassets in Resources */,
-				366B1D3525822E2200F06AB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +476,134 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		480FBF7B7C18C563AB2EAA57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A60BEF4CB09B9FAA81E9E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_BasicAnimationKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87157C6EC386E36C5BAF2DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit/Pods-TFY_BasicAnimationKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit/Pods-TFY_BasicAnimationKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TFY_BasicAnimationKit/Pods-TFY_BasicAnimationKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A9328A788C51C2885DDE58C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8454FA77480E5D8641CBA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFY_BasicAnimationKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		366B1D2325822E2200F06AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				366B1D3225822E2200F06AB5 /* ViewController.m in Sources */,
-				366B1D2C25822E2200F06AB5 /* AppDelegate.m in Sources */,
+				366B1DE8258341B700F06AB5 /* ViewController.m in Sources */,
+				366B1D6D25822E9500F06AB5 /* SceneDelegate.m in Sources */,
+				366B1DFA2583428E00F06AB5 /* TFY_MainCollectionViewCell.m in Sources */,
+				366B1E1825834FA400F06AB5 /* TFY_DancerCollectionViewCell.m in Sources */,
 				366B1D3D25822E2600F06AB5 /* main.m in Sources */,
-				366B1D2F25822E2200F06AB5 /* SceneDelegate.m in Sources */,
+				366B1DBF25830B8000F06AB5 /* CALayer+TFY_Dancer.m in Sources */,
+				366B1DF1258341DA00F06AB5 /* TFY_MainModel.m in Sources */,
+				366B1DAA2583099600F06AB5 /* UIView+TFY_Dancer.m in Sources */,
+				366B1D6E25822E9500F06AB5 /* AppDelegate.m in Sources */,
+				366B1E002583477900F06AB5 /* TFY_DancerTransitionViewController.m in Sources */,
+				366B1DB925830A2400F06AB5 /* CALayer+TFY_Frame.m in Sources */,
+				366B1E1225834F6C00F06AB5 /* TFY_DancerViewController.m in Sources */,
+				366B1DD12583255200F06AB5 /* UICollectionView+TFY_Dancer.m in Sources */,
+				366B1DC525830C7D00F06AB5 /* CALayer+TFY_DancerProperty.m in Sources */,
+				366B1E0625834E5300F06AB5 /* TFY_DancerCollectionViewController.m in Sources */,
+				366B1DCB258323E900F06AB5 /* UICollectionView+TFY_DancerProperty.m in Sources */,
+				366B1E0C25834EEA00F06AB5 /* TFY_DancerTableViewController.m in Sources */,
+				366B1DD725833BA100F06AB5 /* UITableView+TFY_DancerProperty.m in Sources */,
+				366B1DDD25833CE600F06AB5 /* UITableView+TFY_Dancer.m in Sources */,
+				366B1DA42582F84100F06AB5 /* UIView+TFY_DancerProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +639,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		366B1D3325822E2200F06AB5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				366B1D3425822E2200F06AB5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		366B1D3825822E2600F06AB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,12 +764,16 @@
 		};
 		366B1D5725822E2600F06AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE4154BD504B0F1D1300A26 /* Pods-TFY_BasicAnimationKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH95759TSS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TFY_BasicAnimationKit/PCH/TFY_PrefixHeader.pch;
 				INFOPLIST_FILE = TFY_BasicAnimationKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +786,16 @@
 		};
 		366B1D5825822E2600F06AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931F8E5C9619E6A3B7A5F0FE /* Pods-TFY_BasicAnimationKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH95759TSS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TFY_BasicAnimationKit/PCH/TFY_PrefixHeader.pch;
 				INFOPLIST_FILE = TFY_BasicAnimationKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,6 +808,7 @@
 		};
 		366B1D5A25822E2600F06AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5E4EAAEC4DE1A3CDA0CC44 /* Pods-TFY_BasicAnimationKitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +829,7 @@
 		};
 		366B1D5B25822E2600F06AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F20B60C245CAC13165C13E6 /* Pods-TFY_BasicAnimationKitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +850,7 @@
 		};
 		366B1D5D25822E2600F06AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57162AB17F42A357C6A88080 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH95759TSS;
@@ -532,6 +869,7 @@
 		};
 		366B1D5E25822E2600F06AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F030D0227A140EE59025F0 /* Pods-TFY_BasicAnimationKit-TFY_BasicAnimationKitUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH95759TSS;
