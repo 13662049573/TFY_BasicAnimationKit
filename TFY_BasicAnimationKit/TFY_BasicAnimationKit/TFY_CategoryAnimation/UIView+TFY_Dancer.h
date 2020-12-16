@@ -27,8 +27,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TFY_Dancer)
 
-// MARK: MAKE 全部以中心点为依据
-// Function MAKE, based on the center.
+/**
+ MARK: MAKE 全部以中心点为依据
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewSize makeSize;
 @property (nonatomic, copy, readonly) TFY_DancerViewPoint makePosition;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat makeX;
@@ -53,10 +54,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat makeShadowRadius;
 
 
-
-
-// MARK: TAKE 全部以边界点为依据 (repeat无效)
-// Function TAKE, based on the boundary (parameter repeat is unavailable).
+/**
+ MARK: TAKE 全部以边界点为依据 (repeat无效)
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewRect takeFrame;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat takeLeading;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat takeTraing;
@@ -69,9 +69,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-// MARK: MOVE 相对移动 (以中心点为依据)
-// Function MOVE , relative movement (based on the center).
+/**
+ MARK: MOVE 相对移动 (以中心点为依据)
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat moveX;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat moveY;
 @property (nonatomic, copy, readonly) TFY_DancerViewPoint moveXY;
@@ -81,9 +81,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-// MARK: ADD 相对移动(以边界为依据) (repeat无效)
-// Function ADD , relative movement (based on the boundary). (parameter repeat is unavailable).
+/**
+ MARK: ADD 相对移动(以边界为依据) (repeat无效)
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat addLeading;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat addTraing;
 @property (nonatomic, copy, readonly) TFY_DancerViewFloat addTop;
@@ -94,26 +94,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-// MARK: TRANSITION 转场动画
-// Transition animation
-// 注: Repeat无效
-// NOTE: parameter repeat is unavailable
-// 单独transitionFlipFromLeft等,表示当前视图的变化;再调用transitionTo则表示是从当前转换到另一个.
-//Individual transitionFlipFromLeft, etc., indicates the change of the current view; then calling transitionTo means that it is converted from the current to another
+/**
+ MARK: ADD 相对移动(以边界为依据) (repeat无效)
+ 注: Repeat无效
+ 单独transitionFlipFromLeft等,表示当前视图的变化;再调用transitionTo则表示是从当前转换到另一个.
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewTransitionTo transitionTo;
 
 
-// MARK: PATH 轨迹动画
-// Path animation
+/**
+ MARK: PATH 轨迹动画
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewPath path;
 
 
 
 
-
-// MARK: 通用属性
-// Content, general propertys
+/**
+ MARK: 通用属性
+ */
 @property (nonatomic, copy, readonly) TFY_DancerViewTimeInterval delay;
 @property (nonatomic, copy, readonly) TFY_DancerViewRepeat repeat;
 @property (nonatomic, copy, readonly) TFY_DancerViewAutoreverses reverses;
@@ -123,9 +122,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-// MARK: 动画样式, TRANSITION时无效
-// animated style, Transition is unavailable
+/**
+ MARK: 动画样式, TRANSITION时无效
+ */
 - (UIView *)easeInOut;
 - (UIView *)easeIn;
 - (UIView *)easeOut;
@@ -134,9 +133,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-// MARK: 转场动画样式 (只适用于TRANSITION, spring无效. 其他通过layer去操作)
-// Transition animation style (only for TRANSITION, spring is unavailable, Others operate through the layer)
+/**
+ MARK: 转场动画样式 (只适用于TRANSITION, spring无效. 其他通过layer去操作)
+ */
 - (UIView *)transitionFlipFromLeft;
 - (UIView *)transitionFromRight;
 - (UIView *)transitionCurlUp;
@@ -147,31 +146,31 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-
-// MARK: 弹性
-// bounce
+/**
+ MARK: 弹性
+ */
 - (UIView *)spring;
 
 
 
 
-
-// MARK: 关联动画,then以后前一个完成后才完成第二个
-//Associated animation, after the previous one is completed, then the second animate.
+/**
+ MARK: 关联动画,then以后前一个完成后才完成第二个
+ */
 - (UIView *)then;
 
 
 
 
-// MARK: 刷新动画 - 移除旧的重新添加一遍
-// reload animations
+/**
+ MARK: 刷新动画 - 移除旧的重新添加一遍
+ */
 - (void)reloadDancers;
 
 
-
-// MARK: 移除动画
-// remove animations
+/**
+ MARK: 移除动画
+ */
 - (void)removeDancers;
 
 @end

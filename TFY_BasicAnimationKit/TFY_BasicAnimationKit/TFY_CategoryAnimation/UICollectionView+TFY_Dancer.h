@@ -27,9 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // MARK: TRANSITION 转场动画
-// Transition animation
 // 单独transitionFlipFromLeft等,表示当前视图的变化;再调用transitionTo则表示是从当前转换到另一个.
-//Individual transitionFlipFromLeft, etc., indicates the change of the current view; then calling transitionTo means that it is converted from the current to another
 @property (nonatomic, copy, readonly) TFY_DancerCollectionViewTo transitionTo;
 
 
@@ -64,7 +62,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // MARK: 动画样式, TRANSITION时无效
-// animated style, Transition is unavailable
 - (UICollectionView *)easeLiner;
 - (UICollectionView *)easeInOut;
 - (UICollectionView *)easeIn;
@@ -73,7 +70,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // MARK: 转场动画样式 (只适用于TRANSITION, spring无效)
-// Transition animation style (only for TRANSITION, spring is unavailable)
 - (UICollectionView *)transitionFlipFromLeft;
 - (UICollectionView *)transitionFromRight;
 - (UICollectionView *)transitionCurlUp;

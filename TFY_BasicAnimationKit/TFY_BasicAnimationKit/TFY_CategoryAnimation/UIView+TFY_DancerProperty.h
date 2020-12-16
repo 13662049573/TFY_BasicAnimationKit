@@ -19,47 +19,58 @@ typedef NS_ENUM(NSInteger, TFY_ViewEaseType) {
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIView (TFY_DancerProperty)
-// MARK: 延时
-// animation delay
+/**
+ MARK: 延时
+ */
 @property (nonatomic, assign, readwrite) NSTimeInterval tfy_view_delay;
-
-// MARK: 重复次数
-// animation repeat
+/**
+ MARK: 重复次数
+ */
 @property (nonatomic, assign, readwrite) NSInteger tfy_view_repeat;
 
-// MARK: 是否恢复
-// animation reverse
+/**
+ MARK: 是否恢复
+ */
 @property (nonatomic, assign, readwrite) BOOL tfy_view_reverse;
 
-// MARK: 动画时间
-// animation duration
+/**
+ MARK: 动画时间
+ */
 @property (nonatomic, assign, readwrite) NSTimeInterval tfy_view_animateDuration;
 
-//MARK: from
-// animation from
+/**
+ MARK: from
+ */
 @property (nonatomic, strong, readwrite) id tfy_view_from;
 
-//MARK: to
-// animation to
+/**
+ MARK: to
+ */
 @property (nonatomic, strong, readwrite) id tfy_view_to;
 
-// MARK: 类型
-// animation type
+/**
+ MARK: 类型
+ */
 @property (nonatomic, assign, readwrite) TFY_Dancer tfy_view_theDancer;
 
-// MARK: Ease类型
-// animation ease type
+/**
+ MARK: Ease类型
+ */
 @property (nonatomic, assign, readwrite) TFY_ViewEaseType tfy_view_easeType;
 
-// MARK: 是否spring
-// is spring
+/**
+ MARK: 是否spring
+ */
 @property (nonatomic, assign, readwrite) BOOL tfy_view_spring;
 
-// MARK: 是否transition
-// is transition
+/**
+ MARK: 是否transition
+ */
 @property (nonatomic, assign, readwrite) BOOL tfy_view_transition;
 
-//MARK: options
+/**
+ MARK: options
+ */
 @property (nonatomic, assign, readwrite) UIViewAnimationOptions tfy_view_options;
 
 @end
