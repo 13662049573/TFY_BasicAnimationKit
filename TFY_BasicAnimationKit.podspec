@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "TFY_BasicAnimationKit"
 
-  spec.version      = "2.0.2"
+  spec.version      = "2.0.4"
 
   spec.summary      = "基本动画链式封装"
 
