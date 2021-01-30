@@ -37,7 +37,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass(UICollectionViewCell.class) forIndexPath:indexPath];
-    cell.backgroundColor = UIColor.redColor;
+    cell.backgroundColor = UIColor.blueColor;
     return cell;
 }
 

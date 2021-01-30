@@ -267,7 +267,7 @@
     if (!_testView)
     {
         _testView = [[UIView alloc] init];
-        _testView.backgroundColor = UIColor.redColor;
+        _testView.backgroundColor = UIColor.orangeColor;
     }
     return _testView;
 }
