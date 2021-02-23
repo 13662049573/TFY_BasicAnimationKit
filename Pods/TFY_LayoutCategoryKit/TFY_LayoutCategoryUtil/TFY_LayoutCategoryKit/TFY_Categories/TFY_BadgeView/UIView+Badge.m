@@ -17,12 +17,12 @@ static NSString *const kBadgeView = @"kBadgeView";
 
 @implementation UIView (Badge)
 
-- (void)tfy_addBadgeWithText:(NSString *)text
+- (void)tfy_addBadgeWithText:(NSString * _Nonnull)text
 {
     [self tfy_showBadge];
     self.badgeView.text = text;
     [self tfy_setBadgeFlexMode:self.badgeView.flexMode];
-    if (text) {
+    if (![self emptyWithString:text]) {
         if (self.badgeView.widthConstraint && self.badgeView.widthConstraint.relation == NSLayoutRelationGreaterThanOrEqual) { return; }
         self.badgeView.widthConstraint.active = NO;
         NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationGreaterThanOrEqual toItem:self.badgeView attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0];
@@ -33,6 +33,13 @@ static NSString *const kBadgeView = @"kBadgeView";
         NSLayoutConstraint *constraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.badgeView attribute:(NSLayoutAttributeHeight) multiplier:1.0 constant:0];
         [self.badgeView addConstraint:constraint];
     }
+}
+
+- (BOOL)emptyWithString:(NSString *)string {
+    if (string.length == 0 || [string isEqualToString:@""] || string == nil || string == NULL || [string isEqual:[NSNull null]] || [string isEqualToString:@" "] || [string isEqualToString:@"(null)"] || [string isEqualToString:@"<null>"]) {
+        return YES;
+    }
+    return NO;
 }
 
 - (void)tfy_addBadgeWithNumber:(NSInteger)number
@@ -47,7 +54,7 @@ static NSString *const kBadgeView = @"kBadgeView";
 
 - (void)tfy_addDotWithColor:(UIColor *)color
 {
-    [self tfy_addBadgeWithText:nil];
+    [self tfy_addBadgeWithText:@""];
     [self tfy_setBadgeHeight:8.0];
     self.badgeView.backgroundColor = color;
 }
@@ -157,7 +164,7 @@ static NSString *const kBadgeView = @"kBadgeView";
     NSLayoutConstraint *centerXConstraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:0];
     NSLayoutConstraint *centerYConstraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
     NSLayoutConstraint *widthConstraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationGreaterThanOrEqual toItem:self.badgeView attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0];
-    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:18];
+    NSLayoutConstraint *heightConstraint = [NSLayoutConstraint constraintWithItem:self.badgeView attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:14];
     [self addConstraints:@[centerXConstraint, centerYConstraint]];
     [self.badgeView addConstraints:@[widthConstraint, heightConstraint]];
 }

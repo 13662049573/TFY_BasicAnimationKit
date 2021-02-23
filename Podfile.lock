@@ -17,9 +17,9 @@ PODS:
   - IQKeyboardManager (6.5.6)
   - MJRefresh (3.5.0)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.10.0):
-    - SDWebImage/Core (= 5.10.0)
-  - SDWebImage/Core (5.10.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
   - TFY_AutoLayout (2.6.4):
     - TFY_AutoLayout/IOS_Layout (= 2.6.4)
     - TFY_AutoLayout/MAC_Layout (= 2.6.4)
@@ -29,40 +29,40 @@ PODS:
   - TFY_AutoLayout/MAC_Layout (2.6.4):
     - TFY_AutoLayout/Util
   - TFY_AutoLayout/Util (2.6.4)
-  - TFY_LayoutCategoryKit (1.7.6):
-    - TFY_LayoutCategoryKit/TFY_Categories (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Chain (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Tools (= 1.7.6)
-  - TFY_LayoutCategoryKit/TFY_Categories (1.7.6):
-    - TFY_LayoutCategoryKit/TFY_Categories/TFY_BadgeView (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (= 1.7.6)
+  - TFY_LayoutCategoryKit (1.8.8):
+    - TFY_LayoutCategoryKit/TFY_Categories (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Chain (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Tools (= 1.8.8)
+  - TFY_LayoutCategoryKit/TFY_Categories (1.8.8):
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_BadgeView (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (= 1.8.8)
     - TFY_LayoutCategoryKit/TFY_Tools
-  - TFY_LayoutCategoryKit/TFY_Categories/TFY_BadgeView (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Categories/TFY_BadgeView (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Tools
-  - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Tools
-  - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Tools
-  - TFY_LayoutCategoryKit/TFY_Chain (1.7.6):
-    - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (= 1.7.6)
-    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (= 1.7.6)
-  - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Chain (1.8.8):
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (= 1.8.8)
+    - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (= 1.8.8)
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI
     - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
-  - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (1.7.6)
-  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase (1.8.8)
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI
     - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
-  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (1.7.6):
+  - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIView (1.8.8):
     - TFY_LayoutCategoryKit/TFY_Categories/TFY_Foundation
     - TFY_LayoutCategoryKit/TFY_Categories/TFY_UI
     - TFY_LayoutCategoryKit/TFY_Chain/TFY_CALayer
     - TFY_LayoutCategoryKit/TFY_Chain/TFY_ChainBase
     - TFY_LayoutCategoryKit/TFY_Chain/TFY_UIGesture
-  - TFY_LayoutCategoryKit/TFY_Tools (1.7.6)
+  - TFY_LayoutCategoryKit/TFY_Tools (1.8.8)
   - TFY_Model (2.8.0)
   - TFY_Navigation (2.7.0):
     - TFY_Navigation/TFY_NavControoler (= 2.7.0)
@@ -112,9 +112,9 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   TFY_AutoLayout: 51019bdcdb78b9a145bd0ed351d23be93379dc0b
-  TFY_LayoutCategoryKit: ce1c2770518cedcf55efa1b71a786f51c4791b87
+  TFY_LayoutCategoryKit: e428704d3fd30900e203f20fd963b3c216810ba2
   TFY_Model: 0111dca4dea1a9811897cc2a93cabe619a061714
   TFY_Navigation: c78e46ce757b72e55a807816e2db9795446524ed
   TFY_ProgressHUD: c6ffd0626cd8ed74616177139f0925060ac040dd
@@ -122,4 +122,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0819fe6e951802cdb6504d848b75965b509f36a3
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
